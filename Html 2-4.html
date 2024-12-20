@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Submit form" />
+        <meta name="author" content="Tamar Javakhishvili" />
+        <meta property="og:image" content="https://novatori.ge/wp-content/uploads/2023/07/Novatori.jpg" />
+        <meta property="og:description" content="Submit form" />
+        <meta property="og:title" content="Submit form" />
+        <link rel="icon" href="Images/icon.png" />
+        <link rel="stylesheet" href="CSS/Css 2-4.css" />
+        <title>Submit form</title>
+    </head>
+    <body>
+        <div id=mainContainer>
+            <div id="imageContainer"> 
+                <p id="imgText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    ut enim ad minim veniam,</p>
+                <img src="Images/image.png" id="imgBackground" alt="ghibli anime charaqters" title="ghibli anime charaqters" />
+            </div>
+            <div id="launchContainer">
+                <h1 id="launch">Be the first to know when we launch</h1>
+                <p id="launchText">We’re still building. Subscribe for updates and 20% off when we launch. No spam, we promise!</p>  
+                <div id="subscribe">
+                    <div id="enterEmail">
+                        <input type="email" id="email" name="userEmail" placeholder="Enter your email" />
+                        <lable id="lablepolicy" for="email">We care about your data in our <span>privacy policy.</span></lable>
+                    </div>
+                    <button id="buttonSubscribe" type="submit">Subscribe</button>
+                </div>
+            </div>
+            <div id="submitForm">
+                <h2 id="submitHeader">Submit form</h2>
+                <form>
+                    <div id="personalInfo">
+                        <div id="NameDiv">
+                            <lable id="lableName" for="fullName">Full Name</lable>
+                            <input type="text" id="fullName" name="fullName" placeholder="Please write your name" />    
+                        </div>
+                        <div id="mailDiv">
+                            <lable id="lableMail" for="mail">Email</lable>
+                            <input type="email" id="mail" name="userEmail" placeholder="Please write your email" />    
+                        </div>
+                    </div>
+                    <div id="radio">
+                        <lable id="lableGeeks">Would you recomment GeeksforGeeks to a friends?</lable> 
+                        <div>
+                            <input type="radio" id="yesOne" name="geeks" value="yesOne" />
+                            <label id="lableOne" for="yesOne">Yes</label>    
+                        </div>
+                        <div>
+                            <input type="radio" id="yesTwo" name="geeks" value="yesTwo" />
+                            <label id="lableTwo" for="yesTwo">Yes</label>    
+                        </div>
+                        <div>
+                            <input type="radio" id="yesThree" name="geeks" value="yesTree" />
+                            <label id="lableThree" for="yesTree">Yes</label>    
+                        </div>
+                    </div>
+                    <div id="cheskBox">
+                        <lable id="lableApply">Language and frameworks known (Checks all that apply)</lable>
+                        <div>
+                            <input type="checkbox" id="c" name="frameworks" value="c" />
+                            <lable id="lableC" for="c">C</lable>    
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ccc" name="frameworks" value="c++" />
+                            <lable id="lableCcc" for="ccc">C++</lable>    
+                        </div>
+                        <div>
+                            <input type="checkbox" id="java" name="frameworks" value="java" />
+                            <lable id="lableJava" for="java">Java</lable>    
+                        </div>
+                        <div>
+                            <input type="checkbox" id="python" name="frameworks" value="python" />
+                            <lable id="lablePython" for="python">Python</Python>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
